@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/okoyecb.js" defer></script>
+    <title>Okoyecb's Address Book</title>
+</head>
+<body>
+    <section class="overall-main">
+        <section class="main">
+            <section class="header">
+                <header>
+                    <ul class="ul main_header">
+                        <li class="li">Okoyecb's Address Book</li>
+                        <li class=" li right create hovered">Create</li>
+                        <li class="li right deletebtn white hovered" >Delete</li>
+                    </ul>
+                    <ul class="ul deletepage">
+                        <li class="li"><input type="checkbox" class="select" name="" id="select-all"> Select contacts</li>
+                        <li class="all-label">All</li>
+                        <li class="li right delete white hovered" >Delete</li>
+                        <li class="li right back hovered">Back</li>
+                    </ul>
+                </header>
+                <input type="text" name="search" id="input" placeholder="&#9906; &nbsp;Search for contact's name"> 
+            </section>
+                    
+            
+            <main>
+                <ol class="ol" id="ol" >
+                    <li class="nocontact">NO CONTACT FOUND</li>
+
+                    <li class="contacts contact-display">
+                        <ul class="contact-group" id="ul">
+                            <li class="contact contactname" id="contactname">Okoye Chidi Bartholomew</li>
+                            <li class="contact contacttel">07039634068</li>
+                            <li><address class="contactaddress">No 13 Salawu Otun Street, Eleyele Ibadan</address></li>
+                            <li class="contact contactmail"><span><a href="mailto:okoyecb@gmail.com">okoyecb@gmail.com</a>
+                            </span></li>
+                            <li class="right red edit hovered">Edit</li>
+                            <br>
+                        </ul>
+                        <hr class="red">
+                    </li>
+
+                    <li class="contacts contact-display">
+                        <ul class="contact-group" id="ul">
+                            <li class="contact contactname" id="contactname">Moshood Abiola</li>
+                            <li class="contact contacttel">07069035552</li>
+                            <li><address class="contactaddress">NW/7 Ijora Campus, Sarewa ..</address></li>
+                            <li class="contact contactmail"><span><a href="mailto:chidizy4@gmail.com">chidizy4@gmail.com</a>
+                            </span></li>
+                            <li class="right red edit hovered">Edit</li>
+                            <br>
+                        </ul>
+                        <hr class="red">
+                    </li>
+                </ol>
+            </main>
+        </section>
+    
+        <section class="create_page">        
+            <header class="header">
+                <ul class="ul">
+                    <li class="li cancel white hovered" >Cancel</li>
+                    <li class="li save right hovered">Save</li>
+                    <li class="li edit-save right hovered">Save</li>
+    
+                </ul> 
+            </header>
+        
+            <input type="text" id='name' name="name" placeholder="Name" autofocus>
+            <input type="number" name="number" id="num" placeholder="Phone Number">
+            <input type="text" name="address" id="address" placeholder="Address">
+            <input type="email" name="email" id="email" placeholder="Email">
+        
+            
+        </section>
+    </section>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- <script src="jquery.js"></script> -->
+</body>
+</html>

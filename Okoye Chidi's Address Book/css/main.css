@@ -1,0 +1,148 @@
+body{
+    width: 95%;
+    height: 700px;
+    overflow-y: scroll;
+    bottom: 20px;
+    margin: 15px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(25, 8, 87);
+    background-image: url(https://images.unsplash.com/photo-1421167277458-08a4fab28fcd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a63707b36b711ecda016990623826011&auto=format&fit=crop&w=566&q=80);
+    
+}
+.overall-main{
+    padding: 7px;
+}
+header{
+    margin-bottom: 9px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+}
+.header{
+    position: sticky;
+    top: 2px;
+    background-color: rgb(49, 19, 78);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+    z-index: 999;
+}
+.header > input{
+    display: block;
+    width: 95%;
+    margin: auto;
+    height: 23px;
+    border-radius: 5px;
+    border-style: groove;
+    outline-color: darkred;
+    border: none;
+    margin-bottom: 10px;
+    padding: 4px 7px;
+    font-size: 14px;
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ol{
+    margin: 0;
+    padding-left: 17px;
+    background-color: white;
+}
+
+.li{
+    float: left;
+    text-align: center;
+    padding: 12px 10px;
+}
+.right{
+    display: block;
+    float: right;  
+    
+}
+.create_page input{
+    display: block;
+    width: 97%;
+    margin: auto;
+    height: 22px;
+    padding: 3px;
+    margin-top: 10px;
+    outline: snow;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 1px solid darkred;
+    letter-spacing: 1px;
+}
+.create_page input:hover, .create_page input:focus{
+    border-bottom: 2px solid darkred;
+} 
+.contacts{
+    padding: 15px 15px 0 6px;
+    
+}
+.contact-group{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contactname{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contactmail{
+    font-size: smaller;
+}
+li{
+    padding: 2px;
+}
+
+.contact-group input{
+    margin-left: -42px;
+    margin-top: 5px;
+    float: left;
+}
+.delete-clicked{
+    padding-left: 50px;
+}
+.li button{
+    border-style: none;
+    text-align: center;
+    letter-spacing: 1px;
+    background-color: white;
+}
+.hovered:hover, .hovered:focus{
+    font-size: 115%;
+    outline: none !important;
+}
+.red{
+    color: rgb(170, 134, 134)
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 41, 41);
+}
+.white{
+    color: whitesmoke;
+}
+.all-label{
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    font-size: x-small;
+}
+.create_page > .header{
+    padding: 0 10%;
+}
+.nocontact{
+    display: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+    body{
+        max-width: 60%;
+    }
+    
+}
